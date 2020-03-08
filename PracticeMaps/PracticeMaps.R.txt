@@ -24,3 +24,5 @@ mapview(MedianHomeValue)
 # Map your data by the estimate column
 mapView(MedianHomeValue,
         zcol = "estimate")
+        
+        
