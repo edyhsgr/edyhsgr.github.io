@@ -1,6 +1,4 @@
-
 #Census API info https://cran.r-project.org/web/packages/censusapi/vignettes/getting-started.html
-
 #Below following https://rpubs.com/DanielSLee/censusMap (great guidance!)
 
 library(tidycensus)
@@ -24,5 +22,4 @@ mapview(MedianHomeValue)
 # Map your data by the estimate column
 mapView(MedianHomeValue,
         zcol = "estimate")
-        
-        
+           
